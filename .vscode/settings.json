@@ -1,0 +1,50 @@
+{
+  "editor.tabSize": 2,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    // "source.organizeImports": true
+  },
+  "editor.minimap.enabled": false,
+  "files.autoSave": "onFocusChange",
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.associations": {
+    "*.env.development": "env",
+    "*.env.production": "env",
+    "*.env.test": "env",
+    "*.env.development.local": "env",
+    "*.env.production.local": "env",
+    "*.env.test.local": "env",
+    "*.env.local": "env"
+  },
+  "npm-intellisense.importES6": false,
+  "npm-intellisense.importQuotes": "'",
+  "npm-intellisense.importDeclarationType": "const",
+  "npm-intellisense.scanDevDependencies": true,
+  "npm-intellisense.showBuildInLibs": true,
+  "[markdown]": {
+    "files.trimTrailingWhitespace": false
+  },
+  "workbench.editorAssociations": {
+    // "*.md": "vscode.markdown.preview.editor"
+  },
+  "workbench.startupEditor": "none",
+  "gitlens.showWelcomeOnInstall": false,
+  "gitlens.showWhatsNewAfterUpgrades": false,
+  "typescript.suggest.paths": true,
+  "javascript.suggest.paths": true,
+  "rest-client.previewResponseInUntitledDocument": true,
+  "prettier": {
+    "trailingComma": "es5",
+    "tabWidth": 2,
+    "semi": false,
+    "printWidth": 80,
+    "singleQuote": true,
+    "useTabs": false,
+    "quoteProps": "as-needed",
+    "bracketSpacing": true,
+    "jsxBracketSameLine": false,
+    "arrowParens": "avoid",
+    "htmlWhitespaceSensitivity": "strict"
+  }
+}
